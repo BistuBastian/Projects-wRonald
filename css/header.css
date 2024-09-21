@@ -1,0 +1,45 @@
+.header {
+  background-color: #000a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 5px 10%;
+}
+
+.header .logo img {
+  height: 50px;
+  width: auto;
+}
+
+.nav_btn {
+  height: 45px;
+  width: 45px;
+  background: none;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.btn_svg {
+  align-content: center;
+}
+
+.nav_btn:hover {
+  background: #aaa4;
+  transition: 0.5s;
+}
+
+.search__input {
+  font-family: inherit;
+  font-size: inherit;
+  background-color: #f4f2f2;
+  border: solid #fff;
+  color: #333333;
+  padding: 0.7rem 1rem;
+  border-radius: 30px;
+  width: 12em;
+  transition: all ease-in-out 0.5s;
+  margin-right: -2rem;
+}
