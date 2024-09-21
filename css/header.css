@@ -1,14 +1,16 @@
 .header {
+  position: fixed;
+  width: 100vw;
   background-color: #000a;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 4rem;
   padding: 5px 2%;
 }
 
 .header .logo img {
-  height: 50px;
+  height: 3rem;
   width: auto;
   transition: 0.5s;
 }
@@ -81,10 +83,6 @@
   background: #aaa4;
   transform: scale(1.1);
   transition: 0.5s;
-}
-
-.btn_svg {
-  align-content: center;
 }
 
 .search_input {
