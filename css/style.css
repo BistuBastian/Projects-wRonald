@@ -145,7 +145,7 @@ body {
   width: 40%;
   top: 0;
   right: -60%;
-  background-image: url("/img/3.png");
+  background-image: url("../img/3.png");
   background-size: cover;
   background-position: 60%;
   border-radius: 0px 10px 10px 0;
