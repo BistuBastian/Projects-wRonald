@@ -24,6 +24,11 @@
   margin: 0;
   display: flex;
   justify-content: space-between;
+  transition: 0.5s;
+}
+
+.header .nav_links li {
+  transition: 0.5s;
 }
 
 .header .nav_links li a {
