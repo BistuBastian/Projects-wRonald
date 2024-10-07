@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+body {
+  background-color: #f8b300;
+  overflow: auto;
+}
+
+/* -------------------- CARRUSEL -------------------- */
+
+.container {
+  position: relative;
+}
+
+.container .wrapper {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container .wrapper-holder {
+  display: grid;
+  grid-template-columns: repeat(4, 100%);
+  height: 100%;
+  width: 100%;
+  animation: slider 20s infinite;
+}
+.container #slider-img-1 {
+  background-image: url(../img/9.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container #slider-img-2 {
+  background-image: url(../img/yawe.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container #slider-img-3 {
+  background-image: url(../img/4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container #slider-img-4 {
+  background-image: url(../img/5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@keyframes slider {
+  0% {
+    transform: translateX(0%);
+  }
+  10% {
+    transform: translateX(0%);
+  }
+  20% {
+    transform: translateX(-100%);
+  }
+  30% {
+    transform: translateX(-100%);
+  }
+  40% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  60% {
+    transform: translateX(-200%);
+  }
+  70% {
+    transform: translateX(-200%);
+  }
+  80% {
+    transform: translateX(-300%);
+  }
+  90% {
+    transform: translateX(-300%);
+  }
+  99% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+/* -------------------- MINERVA'S BEER STORY -------------------- */
+
+.card_wrapper {
+  margin: 3rem auto;
+  width: 80%;
+  height: 60vh;
+  background: #eee;
+  box-shadow: 1px 1px 15px 3px #0006;
+  border-radius: 10px;
+}
+
+.card_title {
+  font-family: poppins;
+  font-weight: 700;
+  position: relative;
+  width: max-content;
+  left: 9rem;
+  top: -23rem;
+  font-size: 2.8rem;
+}
+
+.card_title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6%;
+  background: black;
+}
+
+.card_content {
+  text-align: justify;
+  font-family: poppins;
+  font-weight: 400;
+  position: relative;
+  width: 40%;
+  left: 6rem;
+  top: -21rem;
+  font-size: 1rem;
+}
+
+.card_img {
+  position: relative;
+  height: 100%;
+  width: 40%;
+  top: 0;
+  right: -60%;
+  background-image: url("../img/3.png");
+  background-size: cover;
+  background-position: 60%;
+  border-radius: 0px 10px 10px 0;
+}
+
+/* -------------------- MINERVA'S BEER STORY -------------------- */
+
+.card_wrapper {
+  margin: 3rem auto;
+  width: 80%;
+  height: 60vh;
+  background: #eee;
+  box-shadow: 1px 1px 15px 3px #0006;
+  border-radius: 10px;
+}
+
+.card_title2 {
+  font-family: poppins;
+  font-weight: 700;
+  position: relative;
+  width: max-content;
+  right: -33.5rem;
+  top: -23rem;
+  font-size: 2.8rem;
+}
+
+.card_title2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6%;
+  background: black;
+}
+
+.card_content2 {
+  text-align: justify;
+  font-family: poppins;
+  font-weight: 400;
+  position: relative;
+  width: 40%;
+  right: -34rem;
+  top: -21rem;
+  font-size: 1rem;
+}
+
+.card_img2 {
+  position: relative;
+  height: 100%;
+  width: 40%;
+  top: 0;
+  right: 0%;
+  background-image: url("../img/3538-smoking-yoda-pfpsgg.ico");
+  background-size: cover;
+  background-position: 60%;
+  border-radius: 10px 0px 0px 10px;
+}
